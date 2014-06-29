@@ -1,0 +1,151 @@
+.onlineUsersPanel
+{
+	width:200px;
+	height:100%;
+	position:fixed;
+	border-left:1px solid #000;
+	right:0px;
+	top:0px;
+	z-index:109;
+	background-color:#FFFFFF;
+
+}
+h3{
+  background-color: #c5d7d7;
+  margin: 0;
+  padding: 6px;
+}
+label {
+  float: left;
+  padding-right: 5px;
+  padding-top: 7px;
+  text-align: right;
+  width: 104px;
+}
+input[type="button"] {
+  font-size: 20px;
+  margin-left: 147px;
+  width: 70px;
+}
+.group-form {
+  background-color: #87cefa;
+  border: 2px solid red;
+  border-radius: 15px;
+  margin-left: 30%;
+  margin-top: 20%;
+  padding: 2%;
+  width: 300px;
+}
+input {
+  border: 1px solid red;
+  border-radius: 2px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.chatUsers
+{
+	padding:5px;
+	background-color:#F5F5F5;
+	cursor:pointer;
+	 border-bottom: 1px solid red;
+	 
+}
+.chatUsers:hover
+{
+	background-color:#87CEFA;
+}
+.chatBox
+{	
+	width:200px;
+	position:fixed;
+	right:200px;
+	bottom:0px;
+	border:1px solid #000;
+	border-bottom:none;
+	background-color:#FFFFFF;
+}
+.chatBoxContent
+{
+	height:250px;	
+}
+.chatBox .chatheader
+{
+	background-color:#87CEFA;
+	padding-left:5px;
+	padding-top:2px;
+	cursor:pointer;
+}
+.chatBox .chatBoxContent textarea
+{	
+	border:none;
+	resize: none;
+	outline: none;
+	width:195px;
+	overflow:hidden;
+	height:40px;
+	position:absolute:
+	bottom:0px;
+	border:0;
+}
+.chatBox .chatBoxContent .enteredTextContent
+{
+	height:206px;
+	border-bottom:1px solid #000;
+	overflow:hidden;
+	word-wrap: break-word;
+	overflow-y:scroll;
+}
+.chatUserName
+{
+	float:left;
+}
+.chatBox .closeChatBox
+{
+	background:url('images/quit.png');
+	width:24px;
+	height:24px;
+	float:right;
+}
+.typing_txt
+{
+	display:none;
+}
+.chatBox .chatBoxContent .enteredTextContent span {
+  float: right;
+  font-size: 11px;
+  padding-right: 1px;
+  clear:right;
+}
+
+.self, .opp {
+  background-color: #87defa;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 2px;
+}
+.self {
+  background-color: #87cea7;
+}
+
+@media screen and (max-width: 500px) {
+
+.onlineUsersPanel{
+
+width:90px;
+}
+
+.chatBox
+{
+	width:150px;
+}
+
+.group-form {
+  margin-left: 0%;
+  width: 136px;
+}
+input {
+  width: 125px;
+ }
+
+}

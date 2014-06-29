@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<title>sample Chat Application using socket.io and nodejs</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript">
+var 	socketio_domain = 'http://www.lingesh.com:443';
+</script>
+<script src="http://www.lingesh.com:443/socket.io/socket.io.js"></script>
+<script type="text/javascript"  src="js/jquery.js"></script>
+<script type="text/javascript"  src="js/script.js"></script>
+</head>
+<body>
+<div class="group-form">
+<label>Name:</label><input id="nm" name="nm" onchange="enterGroup()"><br>
+<label>Group Name:</label><input id="group" name="group" onchange="enterGroup()"><br>
+</div>
+
+<div class="onlineUsersPanel">
+<h3>Online Users</h3>
+<div id="userList"></div>
+</div>
+
+<div id="chat_panel_footer">
+
+
+</div>
+</body>
+</html>
